@@ -13,3 +13,4 @@ class Movie < ApplicationRecord
     through: :castings,
     source: :actor
 end
+#
